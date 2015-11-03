@@ -1,0 +1,18 @@
+body, html {
+  font-size: 24px;
+  color: red;
+}
+
+header h1 {
+  color: red !important;
+}
+main h2 {
+  color :green;
+}
+
+p{
+
+}
+header{
+  background: pink;
+}

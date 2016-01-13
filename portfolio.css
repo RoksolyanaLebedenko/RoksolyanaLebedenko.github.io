@@ -1,0 +1,208 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Fonts/Montserrat-Regular.otf);
+   }
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+/*  background: url("http://ermarkatescil.com/Images/simple-gray-background_1600x10001.jpg"); */
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
+
+  font-family: Montserrat;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:hover{
+  animation: change-color 1s infinite;
+}
+
+
+.name{
+  display: block;
+  text-transform: uppercase;
+  font-family: montserrat;
+  font-size: 70px;
+  color: white;
+  padding-top: 30px;
+}
+.skills{
+  color:white;
+  font-size: 20px;
+  font-family: montserrat;
+}
+ul a{
+  color: white;
+  font-weight: bold;
+
+}
+
+
+.main-header{
+  overflow: hidden;
+  padding: 20px 50px;
+  background: #2e3d51;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+}
+p{
+  font-family: Lato;
+
+}
+.logotype {
+  display: block;
+  float:left;
+  color: white;
+  font-size: 40px;
+  font-family: montserrat;
+  text-decoration: none;
+}
+.img-responsive{
+  border-radius: 0px 100px;
+  margin-top: 50px;
+}
+.main-navigation{
+  float:right;
+}
+
+
+.main-navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-navigation ul li{
+  display: inline-block;
+  padding: 20px 10px 20px 0px;
+}
+
+.main-navigation ul li a{
+  text-decoration: none;
+
+}
+section{
+  padding: 40px;
+}
+
+section header {
+  text-align: center;
+  margin: 30px 0;
+}
+
+#resume{
+  background: #19bb9d;
+}
+#about_me{
+  background: white;
+  font-size: 45px;
+  font-family: montserrat;
+  color:  #2e3d51;
+  font-weight: bold;
+
+}
+.abd{
+  color: white;
+  font-size: 20px;
+}
+.text1 {
+  color:#19bb9d;
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: normal;
+
+}
+#projects{
+  background: #19bb9d;
+  color: white;
+  font-size: 45px;
+  font-family: montserrat;
+  font-weight: bold;
+  text-align: center;
+
+}
+.video{
+
+  text-align: center;
+}
+#contact{
+  background: white;
+  font-size: 25px;
+  font-family: montserrat;
+  color:  #2e3d51;
+  font-weight: bold;
+
+}
+#end{
+  background: #2e3d51;
+
+}
+.star-line{
+  width: 100px;
+  height: 5px;
+  background: white;
+  display: inline-block;
+}
+.star{
+  font-size: 40px;
+  color: red;
+  animation: change-color 1s infinite;
+  vertical-align: middle;
+}
+
+.star-block{
+  text-align: center;
+}
+@keyframes change-color{
+  0%{
+    color: green;
+  }
+
+  100%{
+    color: white;
+  }
+}
+.adress{
+  color: white;
+
+}
+
+.social_icons{
+  list-style: none;
+  padding: 0;
+}
+.social_icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid white;
+  display: inline-block;
+  margin-right: 20px;
+}
+.social_icon:last-child{
+  margin-right: 0;
+}
+.social_icon:hover{
+  background: green;
+}
+
+.social_icon a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.social_icon img{
+  width: 100%;
+  height: 100%;
+}

@@ -132,6 +132,10 @@ section header {
   text-align: center;
 
 }
+.abp{
+  color:#19bb9d ;
+  font-size: 20px;
+}
 .video{
 
   text-align: center;
@@ -142,6 +146,10 @@ section header {
   font-family: montserrat;
   color:  #2e3d51;
   font-weight: bold;
+
+}
+.mail{
+  color: #19bb9d;
 
 }
 #end{
